@@ -13,12 +13,11 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
-
+Import tensorflow and preprocessing libraries
 ### STEP 2:
-
+Build a Convolutional Neural Network Model
 ### STEP 3:
-
-Write your own steps
+Create Model and then predict
 
 ## PROGRAM
 ```python
@@ -84,6 +83,8 @@ np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+<img width="610" alt="image" src="https://user-images.githubusercontent.com/113534309/201094794-b06c95e4-a5dc-4185-b501-92f17eab2f61.png">
+
 ### ACCURACY VS VAL_ACCURACY
 ![image](https://user-images.githubusercontent.com/75235488/189907130-3c5f18c6-e092-463b-a520-3e3fa0a2859c.png)
 
@@ -99,8 +100,7 @@ np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 ![image](https://user-images.githubusercontent.com/75235488/189907192-8b5c23c9-27c1-40d3-8499-7bd8091f3c76.png)
 
 ### New Sample Data Prediction
-
-![image](https://user-images.githubusercontent.com/75235488/189907327-69384ddd-16ed-4ba2-95c1-6e99e6dbaf63.png)
+<img width="162" alt="image" src="https://user-images.githubusercontent.com/113534309/201094621-f628d739-a417-41e3-9e0b-8f61e1e60b49.png">
 
 ## RESULT
 A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
